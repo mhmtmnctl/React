@@ -8,6 +8,9 @@ import Jsx6 from "./components/03-jsx/jsx6";
 import Style1 from "./components/04-styles/style1";
 import Style2 from "./components/04-styles/style2";
 import Style3 from "./components/04-styles/style3";
+import Style4 from "./components/04-styles/style4";
+import Clock1 from "./components/05-clock1/clock1";
+
 const App = () => {
   return (
     <div>
@@ -17,12 +20,16 @@ const App = () => {
         <Jsx2/>
         <Jsx3/>
         <Jsx4/>
-         <Jsx5 />
-         <Jsx6 />
-         <Style1 />
-          <Style2 />
-           <Style3 />
+        <Jsx5/>
+        <Jsx6 />
+        <Style1/>
+        <Style2/>
+        <Style3/>
+        <Style4/>
  */}
+
+          <Clock1/>
+      
     </div>
   );
 };
