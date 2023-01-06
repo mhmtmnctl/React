@@ -10,6 +10,8 @@ import Style2 from "./components/04-styles/style2";
 import Style3 from "./components/04-styles/style3";
 import Style4 from "./components/04-styles/style4";
 import Clock1 from "./components/05-clock1/clock1";
+import Greetings from "./components/06-props-1/greetings";
+import Products from "./components/07-props-2/products";
 
 const App = () => {
   return (
@@ -26,10 +28,10 @@ const App = () => {
         <Style2/>
         <Style3/>
         <Style4/>
+         <Clock1/>
+         <Greetings />
  */}
-
-          <Clock1/>
-      
+      <Products />
     </div>
   );
 };
