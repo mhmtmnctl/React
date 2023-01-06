@@ -1,9 +1,12 @@
-import React from "react";
-
+import React from 'react';
 import "./card.scss";
 
-const ProductCard = () => {
-  return <div className="product-card">Card</div>;
-};
+const ProductCard = (props) => {
+  return (
+    <div className="product-card">
+      {props.children}
+    </div>
+  )
+}
 
-export default ProductCard;
+export default ProductCard
