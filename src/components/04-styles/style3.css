@@ -1,4 +1,8 @@
 .react-hooks h3{
     font-size: 3rem;
-    color:rgb(123,4,156);
+    color: rgb(123, 4, 156);
+}
+
+a{
+    text-decoration: none;
 }

@@ -1,19 +1,26 @@
 import React from "react";
 
-const Jsx3 = () => {
-  //commnet satırı
-  /*
-    multi 
-    comment
-    */
+// Comment satırı
 
-  const isAdmin = false;
+/*
+    Comment bloğu
+*/
+
+const Jsx3 = () => {
+  const isAdmin = true;
+
+  if(isAdmin){
+
+  }
+  else{
+    
+  }
 
   return (
     <div>
       {isAdmin ? (
         <div>
-          <h2>Admin Menü</h2>
+          <h2>Admin Menu</h2>
           <ul>
             <li>Create User</li>
             <li>Update User</li>
@@ -22,7 +29,7 @@ const Jsx3 = () => {
         </div>
       ) : (
         <div>
-          <h2>User Menü</h2>
+          <h2>User Menu</h2>
           <ul>
             <li>Login</li>
             <li>Register</li>

@@ -1,5 +1,6 @@
 import React from "react";
 import countries from "./countries.json";
+
 const Jsx6 = () => {
   return (
     <table>
@@ -13,7 +14,7 @@ const Jsx6 = () => {
       <tbody>
         {countries.map((country, index) => (
           <tr key={index}>
-            <td>{index + 1}</td>
+            <td>{index+1}</td>
             <td>{country.name}</td>
             <td>{country.code}</td>
           </tr>
@@ -22,4 +23,5 @@ const Jsx6 = () => {
     </table>
   );
 };
+
 export default Jsx6;

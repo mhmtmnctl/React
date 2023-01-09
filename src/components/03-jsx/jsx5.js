@@ -1,20 +1,21 @@
 import React from "react";
 
 const Jsx5 = () => {
-  const names = ["ali", "veli", "ayse", "fatma"];
-  const cities = ["ist", "izm", "lond", "paris"];
+  const names = ["Ali", "Veli", "Ayşe", "Fatma"];
+  const cities = ["İstanbul", "İzmir", "London", "Paris", "Zurich"];
+
   return (
     <div>
       <ul>
-        {names.map((name, i) => (
-          <li key={i}>{name}</li>
+        {names.map((x, i) => (
+          <li key={i}>{x}</li>
         ))}
       </ul>
 
       <select>
-        {cities.map((city, i) => (
-          <option key={i}>{city}</option>
-        ))}
+          { cities.map( (city, i)=> <option  key={i}>{city}</option> ) }
+
+
       </select>
     </div>
   );
